@@ -20,6 +20,22 @@ namespace ValoresEspeciais
             Console.WriteLine($"{float.MaxValue}");
             Console.WriteLine($"{double.MinValue}");
             Console.WriteLine($"{double.MaxValue}");
+            Console.WriteLine($"{decimal.MinValue}");
+            Console.WriteLine($"{decimal.MaxValue}");
+            Console.WriteLine($"{char.MinValue}");
+            Console.WriteLine($"{char.MaxValue}");
+            Console.WriteLine($"{ulong.MinValue}");
+            Console.WriteLine($"{ulong.MaxValue}");
+
+            Console.WriteLine($"{float.PositiveInfinity}");
+            Console.WriteLine($"{float.NegativeInfinity}");
+            Console.WriteLine($"{float.NaN}");
+            Console.WriteLine($"{double.PositiveInfinity}");
+            Console.WriteLine($"{double.NegativeInfinity}");
+            Console.WriteLine($"{double.NaN}");
+
+
+            
             
         }
     }
