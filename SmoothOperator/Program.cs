@@ -14,8 +14,6 @@ namespace SmoothOperator
             n = ++n;
             Console.WriteLine($"{n}");
             
-            
-
         }
     }
 }
