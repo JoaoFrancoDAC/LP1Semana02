@@ -26,7 +26,6 @@ namespace ValoresEspeciais
             Console.WriteLine($"{char.MaxValue}");
             Console.WriteLine($"{ulong.MinValue}");
             Console.WriteLine($"{ulong.MaxValue}");
-
             Console.WriteLine($"{float.PositiveInfinity}");
             Console.WriteLine($"{float.NegativeInfinity}");
             Console.WriteLine($"{float.NaN}");
@@ -34,9 +33,14 @@ namespace ValoresEspeciais
             Console.WriteLine($"{double.NegativeInfinity}");
             Console.WriteLine($"{double.NaN}");
 
+            // Overflow 
+            uint uintMax = uint.MaxValue;
+            Console.WriteLine($"{uintMax}");
+            uintMax++;
+            Console.WriteLine($"{uintMax}");
 
-            
-            
+
+
         }
     }
 }
