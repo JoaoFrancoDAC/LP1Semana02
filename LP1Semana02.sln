@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoresEspeciais", "ValoresEspeciais\ValoresEspeciais.csproj", "{CE372DA7-A349-471A-8116-42B7CAB6BBA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfExample.csproj", "{CC997F09-2BA1-4641-90D3-0D9832E7609D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{CE372DA7-A349-471A-8116-42B7CAB6BBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE372DA7-A349-471A-8116-42B7CAB6BBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE372DA7-A349-471A-8116-42B7CAB6BBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC997F09-2BA1-4641-90D3-0D9832E7609D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC997F09-2BA1-4641-90D3-0D9832E7609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC997F09-2BA1-4641-90D3-0D9832E7609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC997F09-2BA1-4641-90D3-0D9832E7609D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
