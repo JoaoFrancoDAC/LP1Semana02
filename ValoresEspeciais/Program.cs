@@ -49,8 +49,17 @@ namespace ValoresEspeciais
             floatMaxDois*=2;
             Console.WriteLine($"{floatMaxDois}");
 
+            // Underflow
+            float floatMin = float.MinValue;
+            Console.WriteLine($"{floatMin}");
+            floatMin--;
+            Console.WriteLine($"{floatMin}");
 
-
+            float floatMinDois = float.MinValue;
+            Console.WriteLine($"{floatMinDois}");
+            floatMinDois*= 2;
+            Console.WriteLine($"{floatMinDois}");
+            
         }
     }
 }
