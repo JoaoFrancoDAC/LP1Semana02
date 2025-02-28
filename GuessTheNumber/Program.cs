@@ -44,7 +44,7 @@ namespace GuessTheNumber
             if (guessedNumber == numberToGuess)
             {
                 attempts++;
-                Console.WriteLine($"You the hidden number {guessedNumber} after {attempts} tries.");
+                Console.WriteLine($"You found the hidden number {numberToGuess} after {attempts} tries.");
             }
         }
     }
