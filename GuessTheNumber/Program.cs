@@ -28,12 +28,12 @@ namespace GuessTheNumber
                 
                 if (guessedNumber < numberToGuess)
                 {
-                    Console.WriteLine("The hidden number is greater. Try again.");
+                    Console.WriteLine($"The hidden number is higher than {guessedNumber}. Try again.");
                     attempts++;
                 }
                 else
                 {
-                    Console.WriteLine("The hidden number is smaller. Try again.");
+                    Console.WriteLine($"The hidden number is lower than {guessedNumber}. Try again.");
                     attempts++;
                 }
                 Console.WriteLine("Insert number:");
@@ -43,6 +43,7 @@ namespace GuessTheNumber
 
             attempts++;
             Console.WriteLine($"You found the hidden number {numberToGuess} after {attempts} tries.");
+
         }
     }
 }
