@@ -41,11 +41,8 @@ namespace GuessTheNumber
                 guessedNumber = Convert.ToInt32(userGuess);
             }
 
-            if (guessedNumber == numberToGuess)
-            {
-                attempts++;
-                Console.WriteLine($"You found the hidden number {numberToGuess} after {attempts} tries.");
-            }
+            attempts++;
+            Console.WriteLine($"You found the hidden number {numberToGuess} after {attempts} tries.");
         }
     }
 }
